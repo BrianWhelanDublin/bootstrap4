@@ -9,14 +9,23 @@ font-family: 'Mulish';
 }
 
 .site-wide-alert {
-    color: #544600;
-    background-color: #eec802;
-    border-color: #eec802;
+    color: rgb(248,248,255);
+    background-color: #0a373d;
+    border-color: #0a373d;
     padding: 5px 15px;
     margin-bottom: 0;
     border: 1px solid transparent;
     border-radius: 0;
 }
+.site-wide-alert a{
+    color: #728b8f; 
+}
+.site-wide-alert a:hover{
+    color: rgb(59,68,75);
+    text-decoration: none;
+  
+}
+
 .callout-container{
     height: 150vh;
     background: url(../images/gin4.jpg)  no-repeat center center fixed; 
@@ -82,7 +91,7 @@ font-family: 'Mulish';
 .navbar {
     margin-bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(0, 0, 0, .5);
     border: 0;
 }
 
@@ -92,8 +101,9 @@ font-family: 'Mulish';
 
 .navbar .navbar-brand {
     font-weight: bold;
+    font-size: 2em;
 }
 
 .navbar .navbar-nav a {
-    font-weight: bold;
+    font-weight: normal;
 }
