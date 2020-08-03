@@ -1,0 +1,99 @@
+
+body {
+font-family: 'Mulish';
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+.callout-container{
+    height: 150vh;
+    background: url(../images/gin4.jpg)  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron-header{
+    color: 	rgb(47,79,79);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.jumbotron small{
+    font-size: 60%;
+    color: azurergb(47,79,79);
+}
+.jumbotron .lead {
+    color: rgb(47,79,79);
+    margin: 25px 0;
+}
+.block-divider{
+     width: 75px;
+    height: 5px;
+    border: 0;
+    background-color:rgb(47,79,79);
+}
+
+}
+.btn--cta {
+    
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--grey {
+    color: white;
+    background-color:rgb(59,68,75);
+    border-color: rgb(59,68,75);
+}
+
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
