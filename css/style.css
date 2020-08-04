@@ -58,12 +58,18 @@ font-family: 'Mulish';
     margin: 25px 0;
 }
 .block-divider{
-     width: 75px;
+     width: 100px;
     height: 5px;
     border: 0;
     background-color:rgb(47,79,79);
 }
-
+.block-divider-sm{
+     width: 75px;
+    height: 5px;
+    border: 0;
+    background-color:rgb(47,79,79);
+    margin-bottom: 50px;
+}
 }
 .btn--cta {
     
@@ -106,4 +112,35 @@ font-family: 'Mulish';
 
 .navbar .navbar-nav a {
     font-weight: normal;
+}
+.page-header{
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+.page-header h2{
+    margin-top:0;
+}
+.content-container{
+    padding-top: 75px;
+    scroll-padding-bottom: 75px;
+}
+.container-wrapper{
+
+}
+.container-wrapper--grey{
+    background-color: rgb(85, 99, 109);
+    color: rgb(248,248,255);
+}
+
+.feature{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feature i{
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.quotes-container {
+    margin-bottom: 40px;
 }
