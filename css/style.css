@@ -28,7 +28,7 @@ font-family: 'Mulish';
 
 .callout-container{
     height: 150vh;
-    background: url(../images/gin4.jpg)  no-repeat center center fixed; 
+    background: url(../images/gin4.jpg)  no-repeat center center scroll; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -40,6 +40,7 @@ font-family: 'Mulish';
 
     position: relative;
 }
+
 .jumbotron{
     background-color: transparent;
 }
@@ -48,6 +49,7 @@ font-family: 'Mulish';
     color: 	rgb(47,79,79);
     font-weight: bold;
     margin-bottom: 30px;
+    position: relative;
 }
 .jumbotron small{
     font-size: 60%;
